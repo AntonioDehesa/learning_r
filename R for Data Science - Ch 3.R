@@ -28,3 +28,4 @@ select(flights, -(year:day)) # select every col except from year to day
 
 rename(flights, tail_num = tailnum)
 select(flights, time_hour, air_time, everything())
+select(flights, air_time,air_time,air_time)
